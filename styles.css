@@ -13,7 +13,7 @@ section {
 }
 
 .body {
-  width: 40vw;
+  width: 60vw;
 }
 
 .container {
@@ -29,11 +29,6 @@ section {
 .second {
   background-color: #000000;
   color: #FFFFFF;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0;
 }
 
 .wave {
