@@ -23,7 +23,13 @@ section {
 }
 
 .first {
-  font-size: 5vh;
+  font-size: 5.5vh;
+}
+
+@media only screen and (max-device-width:600px) {
+  .first {
+    font-size: 3.5vh;
+  }
 }
 
 .second {
