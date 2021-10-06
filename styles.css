@@ -26,6 +26,10 @@ section {
   font-size: 5vh;
 }
 
+.second {
+  font-size: 3vh;
+}
+
 @media only screen and (max-device-width:500px) {
   .first {
     font-size: 3.5vh;
@@ -109,5 +113,33 @@ section {
 
 a {
   text-decoration: none;
-  background-color: transparent;
+}
+
+.white-button {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 18px 24px;
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: solid 4px #FFFFFF;
+  color: #FFFFFF;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.white-button:hover {
+  border: solid 4px #FFFFFF;
+  background: #FFFFFF;
+  color: #000000;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
