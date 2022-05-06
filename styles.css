@@ -7,13 +7,17 @@
 section {
   height: 100vh;
   display: flex;
+  scroll-snap-align: start;
+}
+
+.mid {
   justify-content: center;
   align-items: center;
-  scroll-snap-align: start;
 }
 
 .intro {
   width: 60vw;
+  font-size: 5vh;
 }
 
 .redirect {
@@ -24,19 +28,17 @@ section {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
+  font-family: "Helvetica";
 }
 
-.first {
-  font-size: 5vh;
-}
 
 @media only screen and (max-device-width:500px) {
-  .first {
+  .intro {
     font-size: 3.5vh;
   }
 }
 
-.second {
+.black {
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -137,6 +139,36 @@ a {
   border: solid 4px #FFFFFF;
   background: #FFFFFF;
   color: #000000;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+.black-button {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 18px 24px;
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: solid 1px #000000;
+  color: #000000;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.black-button:hover {
+  border: solid 1px #FFFFFF;
+  background: #000000;
+  color: #FFFFFF;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
