@@ -20,10 +20,6 @@ section {
   font-size: 5vh;
 }
 
-.redirect {
-  width: 50%;
-}
-
 .container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
